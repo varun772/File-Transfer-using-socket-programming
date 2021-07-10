@@ -6,9 +6,20 @@
 
 2.First server.c should be executed and the file that should be transferred to client should be in same directory as server.c.
 
+```
+gcc server.c
+```
+
 3.Then for server file ./a.out should be done then we execute client.c file and its ./a.out.
 
+```
+gcc client.c
+```
+
 4.Input format is client get file1 file2 file3 for single file give only one input.
+```
+./client get <file1> <file2><file3>
+```
 
 5.For disconnecting from server type exit as command line argument this disconnects and exits both server and client. 
 
