@@ -8,7 +8,7 @@
 
 3.Then for server file ./a.out should be done then we execute client.c file and its ./a.out.
 
-4.Input format is client> get <file1> <file2> <file3> for single file give only one input.
+4.Input format is client get file1 file2 file3 for single file give only one input.
 
 5.For disconnecting from server type exit as command line argument this disconnects and exits both server and client. 
 
